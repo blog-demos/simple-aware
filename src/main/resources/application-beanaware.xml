@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="100001"  class="pers.matt.bean.Student1">
+        <property name="name" value="Alice"></property>
+        <property name="address" value="xxxxx"></property>
+    </bean>
+    <bean id="100002"  class="pers.matt.bean.Student2">
+        <property name="name" value="Bob"></property>
+        <property name="address" value="yyyyy"></property>
+    </bean>
+</beans>
